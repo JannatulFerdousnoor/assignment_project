@@ -13,6 +13,8 @@ A comprehensive and secure web application designed to streamline the process of
 - **Dynamic Dashboard:** A centralized control panel for monitoring submission statuses (`dashboard.php`).
 - **Submission Portal:** Secure interface for students to upload their assignment files (`upload.php`).
 - **Administrative Control:** Full CRUD operations allowing authorized users to edit, update, and manage records (`edit.php`, `update.php`).
+
+-<img width="1920" height="1080" alt="Screenshot (67)" src="https://github.com/user-attachments/assets/4dae61a4-1aa8-4818-8c3d-53ccce85c185" /> 
 - **Session Management:** Secure user authentication and session termination (`logout.php`).
 - **Database Integration:** Reliable data handling through optimized database connectivity (`db_connect.php`).
 
