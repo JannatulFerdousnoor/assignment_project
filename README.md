@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="Screenshot (67)" src="https://github.com/user-attachments/assets/4dae61a4-1aa8-4818-8c3d-53ccce85c185" />
+
 # Student Assignment Submission and Tracking System 🎓
 
 A comprehensive and secure web application designed to streamline the process of academic assignment handling. This system allows students to submit their work digitally while providing instructors with tools to track submissions and manage academic results effectively.
