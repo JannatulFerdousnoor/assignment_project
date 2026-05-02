@@ -1,28 +1,28 @@
-# Student Assignment & Result Management System 🎓
+# Student Assignment Submission and Tracking System 🎓
 
-A professional web-based application designed for tracking academic assignments and managing student results. This project was developed as part of the CSE curriculum at Northern University Bangladesh.
+A comprehensive and secure web application designed to streamline the process of academic assignment handling. This system allows students to submit their work digitally while providing instructors with tools to track submissions and manage academic results effectively.
 
 ## 🛠 Tech Stack (Architecture)
-- **Frontend:** HTML5, CSS3, JavaScript
+- **Frontend:** HTML5, CSS3, JavaScript (UI Design)
 - **Backend:** PHP (Native)
-- **Database:** MySQL
-- **File Management:** Custom upload system for assignment submissions.
+- **Database:** MySQL (for secure data persistence)
+- **File System:** Managed file upload directory (`uploads/`)
 
-## ✨ Key Features
-- **Interactive Dashboard:** A centralized view to monitor all student activities and project statuses.
-- **Database Connectivity:** Robust integration using `db_connect.php` for real-time data handling.
-- **CRUD Operations:** Full functionality to Create, Read, Update, and Delete student records (`edit.php`, `update.php`).
-- **Secure File Uploads:** Dedicated module for handling assignment document submissions (`upload.php`).
-- **Authentication:** Secure logout functionality to protect user sessions (`logout.php`).
+## ✨ Core Features
+- **Dynamic Dashboard:** A centralized control panel for monitoring submission statuses (`dashboard.php`).
+- **Submission Portal:** Secure interface for students to upload their assignment files (`upload.php`).
+- **Administrative Control:** Full CRUD operations allowing authorized users to edit, update, and manage records (`edit.php`, `update.php`).
+- **Session Management:** Secure user authentication and session termination (`logout.php`).
+- **Database Integration:** Reliable data handling through optimized database connectivity (`db_connect.php`).
 
-## 🚀 Getting Started Locally
+## 🚀 Installation & Local Setup
 
 ### Prerequisites
-- PHP 8.0+
-- MySQL
-- XAMPP / WAMP / Laragon
+- PHP 8.0 or higher
+- MySQL Database
+- A local server environment (XAMPP, WAMP, or Laragon)
 
-### Installation
-1. Clone the repository:
+### Setup Steps
+1. Clone this repository to your local machine:
    ```bash
    git clone [https://github.com/JannatulFerdousnoor/assignment_project.git](https://github.com/JannatulFerdousnoor/assignment_project.git)
