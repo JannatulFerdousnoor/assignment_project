@@ -1,35 +1,37 @@
 
-# Student Assignment Submission and Tracking System 🎓
+# AI-Enhanced Academic Progress & Tracking System 🎓🤖
 
-A comprehensive and secure web application designed to streamline the process of academic assignment handling. This system allows students to submit their work digitally while providing instructors with tools to track submissions and manage academic results effectively.
+A state-of-the-art web application designed to streamline academic assignment management through **Artificial Intelligence**. This system not only manages submissions but also provides intelligent insights, sentiment analysis, and performance predictions to help students and instructors track academic growth effectively.
 
 ## 🛠 Tech Stack (Architecture)
-- **Frontend:** HTML5, CSS3, JavaScript (UI Design)
+- **Frontend:** HTML5, CSS3 (Modern Dark Theme), JavaScript
 - **Backend:** PHP (Native)
-- **Database:** MySQL (for secure data persistence)
+- **Database:** MySQL
+- **AI Engine:** Integrated NLP Logic & Predictive Analytics
 - **File System:** Managed file upload directory (`uploads/`)
 
 ## ✨ Core Features
-- **Dynamic Dashboard:** A centralized control panel for monitoring submission statuses (`dashboard.php`).
-- **Submission Portal:** Secure interface for students to upload their assignment files (`upload.php`).
-- **Administrative Control:** Full CRUD operations allowing authorized users to edit, update, and manage records (`edit.php`, `update.php`).
 
--<img width="1920" height="1080" alt="Screenshot (67)" src="https://github.com/user-attachments/assets/4dae61a4-1aa8-4818-8c3d-53ccce85c185" /> 
-- **Session Management:** Secure user authentication and session termination (`logout.php`).
-- **Database Integration:** Reliable data handling through optimized database connectivity (`db_connect.php`).
+### 🤖 AI & Intelligent Analytics (New!)
+- **Sentiment Analysis:** Uses NLP logic to analyze instructor feedback and determine the "Tone" (Positive, Neutral, or Critical) of the evaluation.
+- **Predictive Performance Analytics:** An AI-driven engine that calculates **Success Probability** based on weighted historical grade data.
+- **Automated Quality Scoring:** Generates an AI-based quality score for every new submission to provide immediate initial feedback.
+- **Smart Insights Dashboard:** Dynamic recommendations generated based on the student's latest performance trends.
+
+### 📚 Management Features
+- **Dynamic Dashboard:** Centralized control panel with real-time stats and AI insights (`dashboard.php`).
+- **Secure Submission Portal:** Students can upload assignment files with automatic file naming and directory management.
+- **Administrative Control:** Full CRUD operations for editing, updating, and managing assignment records.
+- **Session Management:** Secure user authentication and session handling for data privacy.
 
 ## 🚀 Installation & Local Setup
 
 ### Prerequisites
 - PHP 8.0 or higher
 - MySQL Database
-- A local server environment (XAMPP, WAMP, or Laragon)
+- Local server environment (XAMPP, WAMP, or Laragon)
 
 ### Setup Steps
-1. Clone this repository to your local machine:
+1. Clone this repository:
    ```bash
    git clone [https://github.com/JannatulFerdousnoor/assignment_project.git](https://github.com/JannatulFerdousnoor/assignment_project.git)
-
-   ## How to Setup
-1. Import the `assignment_system (1).sql` file into your MySQL database.
-2. Run the project using XAMPP.
