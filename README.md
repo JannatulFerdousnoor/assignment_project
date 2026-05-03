@@ -29,3 +29,7 @@ A comprehensive and secure web application designed to streamline the process of
 1. Clone this repository to your local machine:
    ```bash
    git clone [https://github.com/JannatulFerdousnoor/assignment_project.git](https://github.com/JannatulFerdousnoor/assignment_project.git)
+
+   ## How to Setup
+1. Import the `assignment_system (1).sql` file into your MySQL database.
+2. Run the project using XAMPP.
